@@ -147,6 +147,21 @@ section{padding:84px 0}.head{display:grid;grid-template-columns:135px 1fr;gap:25
 .model-diagram img{display:block;width:100%;height:auto;max-height:185px;object-fit:contain}
 .model-diagram .preview-caption{margin:4px 4px 3px}
 .evidence-card .evidence-links{margin-top:18px}
+
+/* Evidence-first portfolio improvements */
+.employee-shot{display:block;position:relative;border:1px solid #dfe3d8;border-radius:12px;overflow:hidden;background:#eef0e9;margin:10px 0 8px}
+.employee-shot img{display:block;width:100%;height:auto;max-height:320px;object-fit:contain;object-position:top}
+.employee-shot>span{position:absolute;right:10px;bottom:10px;border-radius:99px;padding:7px 10px;background:#202520e8;color:#fffef9;font-size:9px;font-weight:850}
+.employee-metrics{grid-template-columns:repeat(2,minmax(0,1fr));margin:14px 0}
+.employee-metrics .metric strong{font-size:clamp(21px,2.3vw,28px)}
+.evidence-employee{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.evidence-employee>.evidence-head,.evidence-employee>.evidence-links,.evidence-employee>.evidence-note{grid-column:1/-1}
+.evidence-employee>.employee-shot,.evidence-employee>.preview-caption{grid-column:1}
+.evidence-employee>.employee-metrics,.evidence-employee>.interpretation{grid-column:2}
+.evidence-employee>.preview-caption{margin-top:-4px}
+.evidence-employee .interpretation{align-self:start}
+@media(max-width:760px){.evidence-employee{grid-template-columns:1fr}.evidence-employee>.evidence-head,.evidence-employee>.evidence-links,.evidence-employee>.evidence-note,.evidence-employee>.employee-shot,.evidence-employee>.preview-caption,.evidence-employee>.employee-metrics,.evidence-employee>.interpretation{grid-column:1}.employee-shot img{max-height:260px}}
+
 @media(max-width:900px){.evidence-grid{grid-template-columns:1fr}.evidence-churn{grid-column:auto;grid-template-columns:1fr}.evidence-churn>.evidence-head,.evidence-churn>.metric-grid,.evidence-churn>.evidence-links,.evidence-churn>.evidence-note{grid-column:auto}.metric strong{font-size:27px}}
 @media(max-width:650px){.evidence-section{padding:62px 0}.evidence-card{padding:17px}.evidence-head{flex-direction:column;gap:10px}.evidence-head h3{font-size:22px}.metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metric strong{font-size:25px}.data-bar-label{align-items:flex-start;flex-direction:column;gap:2px}.chart-panel-title{align-items:flex-start;flex-direction:column;gap:2px}.category-table{font-size:8px}.category-table th,.category-table td{padding:8px 3px}.project-art .mini-kpis b,.model-kpis b{font-size:16px}.preview-frame img{max-height:170px}}
 
@@ -274,6 +289,26 @@ section{padding:84px 0}.head{display:grid;grid-template-columns:135px 1fr;gap:25
         <div class="interpretation"><strong>What deserves a closer look</strong><p>The documented total profit is negative, while category profit varies: Furniture is negative in the reported breakdown, while Electronics and Clothing are positive. Confirm measure definitions, source rows, and the target calculation in the PBIX before making business recommendations.</p></div>
         <div class="evidence-links"><a href="https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI" target="_blank" rel="noreferrer">Project README ↗</a><a href="https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI/blob/main/docs/Business_Analysis.md" target="_blank" rel="noreferrer">Business analysis notes ↗</a><a href="https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI/blob/main/docs/Data_Model_Documentation.md" target="_blank" rel="noreferrer">Model documentation ↗</a></div>
         <p class="evidence-note">*Values are copied from the repository README, which says they depend on the prepared dataset and model definitions. Amount units are not specified here. Verify the figures against the PBIX and source files.</p>
+      </article>
+      <article class="evidence-card evidence-employee">
+        <div class="evidence-head">
+          <div><span class="evidence-kicker">CASE STUDY 04 · POWER BI / DAX</span><h3>Employee productivity & work patterns</h3><p>Exploratory analysis of 200 sample activity records, task completion, missed deadlines and work modes.</p></div>
+          <span class="evidence-chip">PROJECT SCREENSHOT</span>
+        </div>
+        <a class="employee-shot" href="https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis/blob/main/screenshots/Dashboard1.png" target="_blank" rel="noreferrer" aria-label="Open the employee productivity dashboard screenshot in GitHub">
+          <img src="https://raw.githubusercontent.com/shanmukhkoyya/employee-laziness-productivity-analysis/main/screenshots/Dashboard1.png" alt="Dashboard screenshot stored in the employee productivity project repository" loading="lazy">
+          <span>Open screenshot ↗</span>
+        </a>
+        <p class="preview-caption">Image linked from the repository's screenshots folder. Open the PBIX to inspect filters, measures, and report pages directly.</p>
+        <div class="metric-grid employee-metrics">
+          <div class="metric"><small>SAMPLE RECORDS</small><strong>200</strong><span>activity records</span></div>
+          <div class="metric"><small>AVERAGE INDEX</small><strong>0.391</strong><span>project-defined measure</span></div>
+          <div class="metric"><small>OFFICE AVERAGE</small><strong>0.392</strong><span>sample records</span></div>
+          <div class="metric"><small>REMOTE AVERAGE</small><strong>0.390</strong><span>sample records</span></div>
+        </div>
+        <div class="interpretation"><strong>What the documented results suggest</strong><p>The office and work-from-home averages are nearly identical in this sample. The dataset and custom index are exploratory; they are not a validated HR measure and should not be used to judge individual employees.</p><p class="next-question"><b>Next question to investigate:</b> document the index formula and test how conclusions change under different assumptions.</p></div>
+        <div class="evidence-links"><a href="https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis" target="_blank" rel="noreferrer">Project README ↗</a><a href="https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis/blob/main/laziness_data.pbix" target="_blank" rel="noreferrer">Open PBIX file ↗</a><a href="https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis/blob/main/Laziness_Analysis_200_Records.csv" target="_blank" rel="noreferrer">Review sample data ↗</a></div>
+        <p class="evidence-note">Source: project README. The reported averages are descriptive only. They do not establish that work mode causes any outcome.</p>
       </article>
     </div>
   </div>
