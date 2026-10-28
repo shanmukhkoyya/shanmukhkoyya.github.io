@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SK">
+  <rect width="64" height="64" rx="16" fill="#202520"/>
+  <path d="M14 17h36v5H14z" fill="#d4fb67" opacity=".85"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" letter-spacing="-1" fill="#d4fb67">SK</text>
+  <circle cx="49" cy="49" r="4" fill="#d4fb67"/>
+</svg>
