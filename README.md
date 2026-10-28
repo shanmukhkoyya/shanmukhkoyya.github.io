@@ -1,45 +1,61 @@
 # Shanmukh Koyya — Data Analytics Portfolio
 
-Personal portfolio website for my data analytics learning and project work.
+My personal portfolio website, built to make my data analytics project work easy to explore and review.
 
-**Portfolio website:** https://shanmukhkoyya.github.io  
-**GitHub profile:** https://github.com/shanmukhkoyya  
-**LinkedIn:** https://www.linkedin.com/in/shanmukh-koyya/
+- **Live website:** https://shanmukhkoyya.github.io
+- **GitHub profile:** https://github.com/shanmukhkoyya
+- **LinkedIn:** https://www.linkedin.com/in/shanmukh-koyya/
 
-## About the website
+## What the site includes
 
-The site brings together selected projects, tools I am practising, my learning background, and contact links. It is built as a responsive, single-page website using HTML, CSS, and JavaScript.
+- A responsive home page and mobile navigation.
+- Project cards with filters for SQL, Power BI, Python, and Excel/Power Query.
+- Custom project illustrations and a project-evidence section featuring documented dataset results.
+- A clear explanation of my analytical approach, current toolkit, background, and contact links.
+- Accessible focus styles, a skip-to-content link, page metadata, and a custom favicon.
 
-## Featured projects
+## Featured repositories
 
-- [E-commerce Customer Churn Analysis](https://github.com/shanmukhkoyya/ecommerce-customer-churn-analysis) — SQL and data-quality checks.
-- [Netflix Content Analysis](https://github.com/shanmukhkoyya/netflix-content-analysis) — Excel, Power Query, Power BI, and DAX.
-- [Data Transformation & Data Modeling](https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI) — Power Query and Power BI modeling.
-- [Employee Productivity & Work Patterns](https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis) — Power BI and DAX.
-- [Power BI DAX & Visualization](https://github.com/shanmukhkoyya/PowerBI---DAX-Data-Visualization) — report design and measures.
-- [NumPy & Pandas Analysis](https://github.com/shanmukhkoyya/Python-Data-Analysis-NumPy-Pandas) — Python data-analysis practice.
-- [Analytics Coding Challenge](https://github.com/shanmukhkoyya/analytics-coding-challenge) — smaller practice exercises.
+| Project | Main tools | Repository |
+|---|---|---|
+| E-commerce Customer Churn Analysis | MySQL, SQL, data-quality checks | [Open project](https://github.com/shanmukhkoyya/ecommerce-customer-churn-analysis) |
+| Netflix Content Analysis | Excel, Power Query, Power BI, DAX | [Open project](https://github.com/shanmukhkoyya/netflix-content-analysis) |
+| Data Transformation & Data Modeling | Power Query, Power BI | [Open project](https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI) |
+| Employee Productivity & Work Patterns | Power BI, DAX | [Open project](https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis) |
+| Power BI DAX & Visualization | Power BI, DAX | [Open project](https://github.com/shanmukhkoyya/PowerBI---DAX-Data-Visualization) |
+| Survey Feedback Analyzer | Python | [Open project](https://github.com/shanmukhkoyya/survey-feedback-analyzer) |
+| NumPy & Pandas Analysis | Python, NumPy, Pandas | [Open project](https://github.com/shanmukhkoyya/Python-Data-Analysis-NumPy-Pandas) |
+| Analytics Coding Challenge | SQL, Excel, Power BI | [Open project](https://github.com/shanmukhkoyya/analytics-coding-challenge) |
 
 ## Run locally
 
-1. Download or clone this repository.
-2. Open `index.html` in a modern web browser.
+1. Clone or download this repository.
+2. Open `index.html` in a modern browser.
 
-The website has no build step or package installation requirement.
+The site uses plain HTML, CSS, and JavaScript; there is no package installation or build step.
 
 ## Publish with GitHub Pages
 
-1. Open this repository on GitHub.
-2. Select **Settings** → **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**, then click **Save**.
-5. After GitHub Pages finishes deploying, visit https://shanmukhkoyya.github.io.
+This repository is configured for a personal GitHub Pages site.
 
-The homepage file is `index.html` in the repository root. GitHub Pages deployment can take a few minutes after setup or a new commit.
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Choose branch `main` and folder `/(root)`, then save.
+4. Once deployment completes, visit https://shanmukhkoyya.github.io.
 
-## Accuracy note
+New commits can take a few minutes to appear on the public site. If the browser shows an older version, refresh it or try a private browsing window.
 
-Project links point to their individual repositories, where methods, source files, and dataset-specific findings can be reviewed. Decorative graphics on this website are design elements; they are not screenshots of Power BI Desktop reports. Descriptions are intended to reflect the project work and current learning stage without claiming unverified outcomes.
+## Integrity and interpretation
+
+Custom charts and diagrams on the site are original illustrative layouts, not screenshots captured from Power BI Desktop. Dataset figures shown in the project-evidence section are identified as documented project results and should be interpreted within each project's scope. They are not industry benchmarks, and descriptive comparisons do not prove causation.
+
+## Technology
+
+- HTML5
+- CSS (responsive layout and accessible focus states)
+- Vanilla JavaScript (mobile navigation and project filters)
+- GitHub Pages
 
 ---
+
 Built by Shanmukh Koyya.
