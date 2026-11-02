@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/readme-hero.svg" alt="PORTFOLIO WEBSITE — A RESPONSIVE GITHUB PAGES EXPERIENCE" width="100%"/></p>
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=165&text=PORTFOLIO%20WEBSITE&fontSize=38&fontColor=ffffff"/>
 <h2>shanmukhkoyya.github.io</h2>
