@@ -1,27 +1,39 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=130&text=PORTFOLIO%20WEBSITE&fontSize=34&fontColor=ffffff"/><h2>shanmukhkoyya.github.io</h2><a href="https://shanmukhkoyya.github.io">🌐 OPEN LIVE WEBSITE</a><p>Static portfolio · HTML · CSS · JavaScript · GitHub Pages</p></div>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=165&text=PORTFOLIO%20WEBSITE&fontSize=38&fontColor=ffffff"/>
+<h2>shanmukhkoyya.github.io</h2>
+<a href="https://shanmukhkoyya.github.io"><img src="https://img.shields.io/badge/VIEW-LIVE%20WEBSITE-176B72?style=for-the-badge"/></a>
+<p>Static site · HTML · CSS · JavaScript · GitHub Pages</p>
+</div>
 
-## Page blueprint
-<table><tr><th>Section</th><th>Visitor purpose</th></tr><tr><td>Hero</td><td>Introduction and role focus</td></tr><tr><td>Project cards</td><td>Browse analytics work</td></tr><tr><td>Skills</td><td>Review tools and workflow</td></tr><tr><td>Background</td><td>Training and education</td></tr><tr><td>Contact</td><td>Professional links</td></tr></table>
+## Site map
+```mermaid
+flowchart TD
+ A[Home / Hero] --> B[Project Gallery]
+ A --> C[Skills & Tools]
+ A --> D[Background]
+ B --> E[Individual GitHub Repositories]
+ D --> F[Contact Links]
+```
 
-## Tech badges
-<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages"/>
-
-## Launch locally
-1. Clone this repository.
-2. Open index.html in a modern browser.
-3. No package manager or build process is required.
-
-## Deployment lane
-<p align="center">EDIT FILES → COMMIT TO MAIN → GITHUB PAGES → LIVE SITE</p>
-
-## Repository files
-| File | Function |
+## Page component matrix
+| Component | Visitor task |
 |---|---|
-| index.html | Page structure, styling and interactions |
-| favicon.svg | Browser tab icon |
-| README.md | Technical hand-off |
+| Hero | Understand role focus and navigate |
+| Project cards | Browse analytics work |
+| Skills | Review tools and workflow |
+| Background | Review training and education |
+| Contact | Open professional links |
 
-> Project-card artwork is illustrative, not a screenshot exported from Power BI. Open each source repository for its files and evidence.
+## Technology stack
+<p align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages"/></p>
+
+## Run locally
+```bash
+git clone https://github.com/shanmukhkoyya/shanmukhkoyya.github.io.git
+cd shanmukhkoyya.github.io
+# Open index.html in a modern browser
+```
+No package manager or build step is required.
 
 ## Release checklist
 - [ ] Test mobile layout and navigation.
@@ -29,3 +41,5 @@
 - [ ] Verify project URLs and alt text.
 - [ ] Match displayed metrics to source projects.
 - [ ] Label conceptual artwork clearly.
+
+> Project-card artwork is illustrative, not a screenshot exported from Power BI. Open each source repository for its files and evidence.
