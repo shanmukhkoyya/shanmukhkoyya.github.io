@@ -1,47 +1,61 @@
-<p align="center"><img src="assets/readme-hero.svg" alt="PORTFOLIO WEBSITE — A RESPONSIVE GITHUB PAGES EXPERIENCE" width="100%"/></p>
-
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=165&text=PORTFOLIO%20WEBSITE&fontSize=38&fontColor=ffffff"/>
-<h2>shanmukhkoyya.github.io</h2>
-<a href="https://shanmukhkoyya.github.io"><img src="https://img.shields.io/badge/VIEW-LIVE%20WEBSITE-176B72?style=for-the-badge"/></a>
-<p>Static site · HTML · CSS · JavaScript · GitHub Pages</p>
+<img src="assets/readme-hero.svg" width="100%" alt="Portfolio website banner"/>
+# THE PORTFOLIO SITE
+### A small, responsive home for analytics projects
+
+<a href="https://shanmukhkoyya.github.io"><img src="https://img.shields.io/badge/OPEN%20LIVE%20SITE-176B72?style=for-the-badge"/></a>
 </div>
 
-## Site map
+## Visitor journey
+
 ```mermaid
-flowchart TD
- A[Home / Hero] --> B[Project Gallery]
- A --> C[Skills & Tools]
- A --> D[Background]
- B --> E[Individual GitHub Repositories]
- D --> F[Contact Links]
+journey
+ title Exploring the portfolio
+ section Discover
+  Open landing page: 5: Visitor
+  Read introduction: 4: Visitor
+ section Explore
+  Browse project cards: 5: Visitor
+  Open a repository: 5: Visitor
+ section Connect
+  Review skills: 4: Visitor
+  Open contact link: 4: Visitor
 ```
 
-## Page component matrix
-| Component | Visitor task |
-|---|---|
-| Hero | Understand role focus and navigate |
-| Project cards | Browse analytics work |
-| Skills | Review tools and workflow |
-| Background | Review training and education |
-| Contact | Open professional links |
+## The page, mapped
 
-## Technology stack
-<p align="center"><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages"/></p>
+| Zone | What it does | Primary element |
+|:--|:--|:--|
+| **01 / Hero** | Establishes profile and navigation | Intro panel |
+| **02 / Work** | Directs visitors to project evidence | Project cards |
+| **03 / Toolkit** | Shows technical focus | Skills section |
+| **04 / Background** | Summarises training and education | Profile details |
+| **05 / Contact** | Provides professional destinations | External links |
 
-## Run locally
+## Under the hood
+
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages"/>
+</p>
+
+## Run it locally
+
 ```bash
 git clone https://github.com/shanmukhkoyya/shanmukhkoyya.github.io.git
 cd shanmukhkoyya.github.io
-# Open index.html in a modern browser
 ```
-No package manager or build step is required.
 
-## Release checklist
-- [ ] Test mobile layout and navigation.
-- [ ] Check keyboard focus and skip link.
-- [ ] Verify project URLs and alt text.
-- [ ] Match displayed metrics to source projects.
-- [ ] Label conceptual artwork clearly.
+Open `index.html` in a modern browser. No package manager or build command is required.
 
-> Project-card artwork is illustrative, not a screenshot exported from Power BI. Open each source repository for its files and evidence.
+## Release gate
+
+- [ ] Check the layout at mobile and desktop widths.
+- [ ] Navigate using keyboard only.
+- [ ] Verify internal and external destinations.
+- [ ] Confirm every displayed metric against its project.
+- [ ] Keep conceptual artwork labelled as conceptual.
+
+> **Evidence note:** Project-card artwork is illustrative. It is not a screenshot exported from Power BI Desktop.
