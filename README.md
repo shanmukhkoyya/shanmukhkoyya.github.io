@@ -1,75 +1,101 @@
-# Portfolio Website | Project Notes
+<div align="center">
 
-**Live site:** https://shanmukhkoyya.github.io/  
-**Repository:** https://github.com/shanmukhkoyya/shanmukhkoyya.github.io  
-**Implementation:** HTML · CSS · Vanilla JavaScript · GitHub Pages
+# shanmukhkoyya.github.io
 
-## Purpose
+**PERSONAL DATA ANALYTICS PORTFOLIO · WEBSITE REPOSITORY**
 
-This repository contains my personal data analytics portfolio website. It is designed to make selected project work, tools, learning background and contact details accessible from one responsive page.
+<img src="https://img.shields.io/badge/HTML5-static%20site-E34F26?logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-responsive-1572B6?logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Hosting-GitHub%20Pages-222222?logo=githubpages&logoColor=white" />
 
-## Page components
+[**Open the live portfolio ↗**](https://shanmukhkoyya.github.io/)
 
-| Website area | Purpose |
-|---|---|
-| Introduction | Brief professional summary and links to work |
-| Project cards | Browse repositories by SQL, Power BI, Python and Excel/Power Query |
-| Project evidence | Read selected dataset results with context and limitations |
-| Skills and approach | Explain tools and the steps used in a data task |
-| Background | Summarise education and professional training |
-| Contact | Provide email, LinkedIn and GitHub links |
-
-The artwork used in project cards is illustrative. It is not presented as an exported Power BI report screenshot. Where project images or results are included, the site points readers to the source repository for further inspection.
-
-## Project directory
-
-The website links to these project repositories:
-
-- [E-commerce Customer Churn Analysis](https://github.com/shanmukhkoyya/ecommerce-customer-churn-analysis)
-- [Netflix Content Analysis](https://github.com/shanmukhkoyya/netflix-content-analysis)
-- [Data Transformation and Data Modeling](https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI)
-- [Employee Productivity and Work Patterns](https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis)
-- [Power BI DAX and Visualization](https://github.com/shanmukhkoyya/PowerBI---DAX-Data-Visualization)
-- [Survey Feedback Analyzer](https://github.com/shanmukhkoyya/survey-feedback-analyzer)
-- [NumPy and Pandas Analysis](https://github.com/shanmukhkoyya/Python-Data-Analysis-NumPy-Pandas)
-- [Analytics Coding Challenge](https://github.com/shanmukhkoyya/analytics-coding-challenge)
-
-## Run locally
-
-No package installation or build process is required.
-
-1. Clone or download this repository.
-2. Open index.html in a modern web browser.
-3. Navigate through the page and test the project filters and mobile menu.
-
-The site uses plain HTML, CSS and JavaScript.
-
-## Publish with GitHub Pages
-
-The repository is intended for a personal GitHub Pages site.
-
-1. Open the repository's Settings.
-2. Select Pages.
-3. Under Build and deployment, choose Deploy from a branch.
-4. Select main and the root folder, then save.
-5. After deployment, open https://shanmukhkoyya.github.io/.
-
-A new commit may take a short time to appear. Refresh the browser if an older version is still cached.
-
-## Accessibility and responsive behaviour
-
-The page includes a skip-to-content link, keyboard focus styling, responsive layouts, a mobile navigation control, page metadata and a custom favicon. Test keyboard navigation and narrow-screen rendering when making future layout changes.
-
-## Repository files
-
-- index.html — complete website markup, styling and client-side interactions.
-- favicon.svg — custom browser icon.
-- README.md — these project and publishing notes.
-
-## Content integrity
-
-Project result figures are dataset-specific and should be read alongside the linked repository documentation. Illustrative graphics are not real report screenshots. Descriptive group comparisons do not establish causation, and project sample data should not be presented as current industry benchmarks.
+</div>
 
 ---
 
-**Maintainer:** Shanmukh Koyya · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
+## What this repository ships
+
+A responsive, single-page portfolio that connects selected analytics projects, tools, learning background and contact information.
+
+| Page module | Reader experience |
+|---|---|
+| Hero / introduction | Professional summary and primary links |
+| Project cards | Browse SQL, Power BI, Python and Excel/Power Query work |
+| Project evidence | Dataset-specific results with context and limitations |
+| Skills and approach | Tools and the stages used in an analysis |
+| Background | Education and professional training |
+| Contact | Email, LinkedIn and GitHub |
+
+> **Asset policy:** Project-card artwork is illustrative. It is not presented as an exported Power BI screenshot. Readers are directed to each source repository for the underlying files.
+
+## Local launch
+
+No bundler, package manager or framework is required.
+
+```bash
+git clone https://github.com/shanmukhkoyya/shanmukhkoyya.github.io.git
+cd shanmukhkoyya.github.io
+```
+
+Then open `index.html` in a modern browser.
+
+## Repository map
+
+```text
+.
+├── index.html     # Page structure, styles and client-side interactions
+├── favicon.svg    # Browser tab icon
+└── README.md      # Project and publishing notes
+```
+
+## Publish pipeline
+
+```text
+Edit index.html
+      │
+      ▼
+Commit to main
+      │
+      ▼
+GitHub Pages builds from main / root
+      │
+      ▼
+https://shanmukhkoyya.github.io/
+```
+
+### GitHub Pages configuration
+
+1. Open **Settings → Pages** in this repository.
+2. Select **Deploy from a branch**.
+3. Choose branch **main** and folder **/(root)**.
+4. Save and open the live-site URL after deployment.
+
+## Portfolio project directory
+
+| Project | Main tools |
+|---|---|
+| [E-commerce Customer Churn](https://github.com/shanmukhkoyya/ecommerce-customer-churn-analysis) | MySQL / SQL |
+| [Netflix Content Analysis](https://github.com/shanmukhkoyya/netflix-content-analysis) | Excel / Power Query / Power BI |
+| [Data Transformation & Modeling](https://github.com/shanmukhkoyya/Data-Transformation-Data-Modeling-using-Power-BI) | Power Query / Power BI / DAX |
+| [Employee Work Patterns](https://github.com/shanmukhkoyya/employee-laziness-productivity-analysis) | Power BI / DAX |
+| [DAX & Visualization](https://github.com/shanmukhkoyya/PowerBI---DAX-Data-Visualization) | Power BI |
+| [Survey Feedback Analyzer](https://github.com/shanmukhkoyya/survey-feedback-analyzer) | Python |
+| [NumPy & Pandas Lab](https://github.com/shanmukhkoyya/Python-Data-Analysis-NumPy-Pandas) | Python / Pandas |
+| [Analytics Coding Challenge](https://github.com/shanmukhkoyya/analytics-coding-challenge) | SQL / Excel / Power BI |
+
+## Quality checklist for future edits
+
+- [ ] Check mobile navigation and narrow-screen layout.
+- [ ] Test keyboard navigation and visible focus states.
+- [ ] Verify every project link still resolves.
+- [ ] Keep image alt text meaningful.
+- [ ] Re-check displayed metrics against the source project.
+- [ ] Keep conceptual artwork labelled as conceptual.
+
+The page includes a skip-to-content link, keyboard focus styling, responsive layouts, mobile navigation, metadata and a custom favicon. Descriptive group comparisons do not establish causation; sample datasets are not industry benchmarks.
+
+---
+
+**Maintainer:** [Shanmukh Koyya](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
